@@ -1,5 +1,32 @@
 .main-container {
+  animation: Slide-in 1.5s, ease-in;
+  @keyframes Slide-in {
+    0% {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 70%;
+    }
+    50% {
+      width: 100vw;
+      height: 5px;
+      opacity: 70%;
+    }
+    70% {
+      width: 100vw;
+      height: 30vh;
+      opacity: 70%;
+    }
+    100% {
+      width: 100vw;
+      height: 100vh;
+      opacity: 100%;
+    }
+  }
   width: 100vw;
-  height: 100vh;
+  height: 103vh;
+  //   background-color: #031e31;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

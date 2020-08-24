@@ -1,11 +1,18 @@
 @import '../components/loading';
 @import '../components/Main/mainContainer';
+@import '../components/LandingPage/landingPageComponent';
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  //   body {
-  //     background-color: black;
-  //   }
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
 }
