@@ -1,18 +1,20 @@
-@import '../components/loading';
+@import '../components/Loading/loading';
 @import '../components/Main/mainContainer';
-@import '../components/LandingPage/landingPageComponent';
+@import '../components/Main/LandingPage/landingPageComponent';
+@import '../components/Main/Header/header';
+@import '../components/Main/LandingPage/Contact/contactComponent';
+@import '../components/Main/LandingPage/Info/infoComponent';
+@import '../components/Main/LandingPage/Nav/navComponent';
 
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  body {
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
+  // width: 100vw;
+  // height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }

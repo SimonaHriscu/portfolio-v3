@@ -1,6 +1,6 @@
 import React from 'react';
 
-function LandingInfo() {
+function Info() {
   return (
     <div className="landing-info">
       <p className="name-container">HI this is Simona</p>
@@ -11,4 +11,4 @@ function LandingInfo() {
   );
 }
 
-export default LandingInfo;
+export default Info;

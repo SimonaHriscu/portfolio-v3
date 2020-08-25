@@ -1,10 +1,12 @@
 import React from 'react';
-import LandingInfo from '../LandingPage/LandingPageComponent';
+import Header from './Header/Header';
+import LandingPage from './LandingPage/LandingPageComponent';
 
 function MainContainer() {
   return (
     <div className="main-container">
-      <LandingInfo />
+      <Header />
+      <LandingPage />
     </div>
   );
 }
