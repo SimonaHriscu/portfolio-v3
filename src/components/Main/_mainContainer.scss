@@ -1,22 +1,22 @@
 .main-container {
-  // animation: Open-landing-page 1s, ease-in;
-  // @keyframes Open-landing-page {
-  //   0% {
-  //     width: 0.1px;
-  //     height: 0.1px;
-  //     opacity: 70%;
-  //   }
-  //   50% {
-  //     width: 100vw;
-  //     height: 3px;
-  //     opacity: 70%;
-  //   }
-  //   100% {
-  //     width: 100vw;
-  //     height: 100vh;
-  //     opacity: 100%;
-  //   }
-  // }
+  animation: Open-landing-page 1s, ease-in;
+  @keyframes Open-landing-page {
+    0% {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 70%;
+    }
+    50% {
+      width: 100vw;
+      height: 3px;
+      opacity: 70%;
+    }
+    100% {
+      width: 100vw;
+      height: 100vh;
+      opacity: 100%;
+    }
+  }
   width: 100vw;
   height: 100vh;
   //   background-color: #031e31;
