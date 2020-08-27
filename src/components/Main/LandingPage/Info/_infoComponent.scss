@@ -1,6 +1,31 @@
 .landing-info {
-  width: 85vw;
-  height: 90vh;
+  width: 80vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10vh;
+  left: 10vw;
+
+  #section_1 {
+    width: 80vw;
+    height: 100vh;
+  }
+  #section_2 {
+    width: 80vw;
+    height: 100vh;
+    background-color: green;
+  }
+  #section_3 {
+    width: 80vw;
+    height: 100vh;
+    background-color: blue;
+  }
+  #section_4 {
+    width: 80vw;
+    height: 100vh;
+    background-color: pink;
+  }
   //animation: Slide-In 2s, ease-in;
   // @keyframes Slide-In {
   //   0% {
