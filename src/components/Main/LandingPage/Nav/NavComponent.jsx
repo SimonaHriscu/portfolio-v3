@@ -3,7 +3,12 @@ import React from 'react';
 function Nav() {
   return (
     <div className="nav">
-      <p className="name-container">HI this is Nav</p>
+      <ul>
+        <li>About me</li>
+        <li>Skills</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
     </div>
   );
 }
