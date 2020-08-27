@@ -4,10 +4,19 @@ function Nav() {
   return (
     <div className="nav">
       <ul>
-        <li>About me</li>
-        <li>Skills</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        <a href="#section_1">
+          <li>About me</li>
+        </a>
+        <a href="#section_2">
+          <li>Skills</li>
+        </a>
+
+        <a href="#section_3">
+          <li>Portfolio</li>
+        </a>
+        <a href="#section_4">
+          <li>Contact</li>
+        </a>
       </ul>
     </div>
   );

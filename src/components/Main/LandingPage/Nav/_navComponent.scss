@@ -1,18 +1,25 @@
 .nav {
   width: 10vw;
   height: 90vh;
+  position: fixed;
+  top: 15vh;
+  right: -2vw;
   ul {
     height: 70vh;
+    width: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-    li {
-      list-style: none;
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-      text-transform: uppercase;
+    a {
+      text-decoration: none;
+      color: black;
+      li {
+        list-style: none;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        text-transform: uppercase;
+      }
     }
   }
 }
