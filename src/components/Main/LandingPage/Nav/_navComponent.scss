@@ -24,12 +24,9 @@
       li {
         list-style: none;
         padding: 1vh 0;
-      }
-      &:hover {
-        background-color: red;
-      }
-      &:enabled {
-        background: green;
+        .newClass {
+          background-color: red;
+        }
       }
     }
   }
