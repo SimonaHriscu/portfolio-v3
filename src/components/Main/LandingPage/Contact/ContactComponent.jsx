@@ -16,7 +16,7 @@ function Contact() {
           <div></div>
         </li>
         {names.map((name, i) => (
-          <li>
+          <li key={i}>
             {' '}
             <a href={links[i]} target="_black">
               {' '}
