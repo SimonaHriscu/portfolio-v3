@@ -1,13 +1,14 @@
 .contact {
   width: 10vw;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   position: fixed;
 
   ul {
     width: 5vw;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
