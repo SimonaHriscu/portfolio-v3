@@ -3,13 +3,14 @@
   height: fit-content;
   display: flex;
   flex-direction: column;
+  justify-content: baseline;
   position: relative;
   top: 10vh;
   left: 10vw;
 
   #section_1 {
     width: 80vw;
-    height: 100vh;
+    height: 90vh;
   }
   #section_2 {
     width: 80vw;

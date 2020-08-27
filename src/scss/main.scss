@@ -6,15 +6,14 @@
 @import '../components/Main/LandingPage/Info/infoComponent';
 @import '../components/Main/LandingPage/Nav/navComponent';
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // width: 100vw;
-  // height: 100vh;
-  //background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  .App {
+    width: 100vw;
+    height: 100vh;
+    //background-color: black;
+    overflow: hidden;
+  }
 }

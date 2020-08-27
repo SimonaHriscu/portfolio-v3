@@ -1,25 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function Nav() {
+const menuItems = ['about me', 'skills', 'portfolio', 'contact'];
+const links = ['#landing-page', '#section_2', '#section_3', '#section_4'];
+
+const Nav = () => {
+  const [className, setClassName] = useState('');
+
+  // const newClass = class;
+
+  const updateClass = (itemToChange, key) => {
+    const newArr = menuItems.map((item, i) => console.log(item));
+
+    //setColor(menuItems.includes(itemToChange) ? 'red' : 'white');
+    setClassName(menuItems.includes(itemToChange) ? 'newClass' : '');
+  };
   return (
     <div className="nav">
       <ul>
-        <a href="#section_1">
-          <li>About me</li>
-        </a>
-        <a href="#section_2">
-          <li>Skills</li>
-        </a>
-
-        <a href="#section_3">
-          <li>Portfolio</li>
-        </a>
-        <a href="#section_4">
-          <li>Contact</li>
-        </a>
+        {menuItems.map((menuItem, i) => (
+          <a href={links[i]} key={i} className={className}>
+            <li onClick={() => updateClass(menuItem, key)}>{menuItem}</li>
+          </a>
+        ))}
       </ul>
     </div>
   );
-}
+};
 
 export default Nav;
