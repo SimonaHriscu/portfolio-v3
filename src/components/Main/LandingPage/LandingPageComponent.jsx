@@ -5,7 +5,7 @@ import Nav from './Nav/NavComponent';
 
 function LandingPage() {
   return (
-    <div className="landing-page">
+    <div className="landing-page" id={'landing-page'}>
       <Contact />
       <Info />
       <Nav />
