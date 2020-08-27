@@ -1,22 +1,17 @@
 import React from 'react';
 
+const menuItems = ['about me', 'skills', 'portfolio', 'contact'];
+const links = ['#landing-page', '#section_2', '#section_3', '#section_4'];
 function Nav() {
   return (
     <div className="nav">
       <ul>
-        <a href="#section_1">
-          <li>About me</li>
-        </a>
-        <a href="#section_2">
-          <li>Skills</li>
-        </a>
-
-        <a href="#section_3">
-          <li>Portfolio</li>
-        </a>
-        <a href="#section_4">
-          <li>Contact</li>
-        </a>
+        {menuItems.map((menuItem, i) => (
+          <a href={links[i]}>
+            {' '}
+            <li>{menuItem}</li>
+          </a>
+        ))}
       </ul>
     </div>
   );

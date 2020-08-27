@@ -1,24 +1,35 @@
 .nav {
   width: 10vw;
-  height: 90vh;
+  height: 100vh;
   position: fixed;
-  top: 15vh;
-  right: -2vw;
+  top: 10vh;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
   ul {
     height: 70vh;
-    width: 3vw;
+    width: 5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     a {
+      width: 6vw;
+      height: fit-content;
       text-decoration: none;
       color: black;
+      padding-right: 4vw;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      text-transform: uppercase;
       li {
         list-style: none;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-        text-transform: uppercase;
+        padding: 1vh 0;
+      }
+      &:hover {
+        background-color: red;
+      }
+      &:enabled {
+        background: green;
       }
     }
   }
