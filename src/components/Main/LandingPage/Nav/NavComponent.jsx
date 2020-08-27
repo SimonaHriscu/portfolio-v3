@@ -4,22 +4,21 @@ const menuItems = ['about me', 'skills', 'portfolio', 'contact'];
 const links = ['#landing-page', '#section_2', '#section_3', '#section_4'];
 
 const Nav = () => {
-  const [className, setClassName] = useState('');
+  const [color, setColor] = useState('white');
 
-  // const newClass = class;
+  const style = { backgroundColor: color };
 
-  const updateClass = (itemToChange, key) => {
+  const updateName = (itemToChange, i) => {
     const newArr = menuItems.map((item, i) => console.log(item));
 
-    //setColor(menuItems.includes(itemToChange) ? 'red' : 'white');
-    setClassName(menuItems.includes(itemToChange) ? 'newClass' : '');
+    setColor(menuItems.includes(itemToChange) ? 'red' : 'white');
   };
   return (
     <div className="nav">
       <ul>
         {menuItems.map((menuItem, i) => (
-          <a href={links[i]} key={i} className={className}>
-            <li onClick={() => updateClass(menuItem, key)}>{menuItem}</li>
+          <a href={links[i]} key={i} style={style}>
+            <li onClick={() => updateName(menuItem, i)}>{menuItem}</li>
           </a>
         ))}
       </ul>
