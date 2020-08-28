@@ -21,12 +21,12 @@
       writing-mode: vertical-rl;
       text-orientation: mixed;
       text-transform: uppercase;
+      .newClass {
+        background-color: red;
+      }
       li {
         list-style: none;
         padding: 1vh 0;
-        .newClass {
-          background-color: red;
-        }
       }
     }
   }
