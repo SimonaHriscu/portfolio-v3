@@ -11,11 +11,69 @@
   #section_1 {
     width: 80vw;
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .profile-section {
+      width: 50vw;
+      height: 80vh;
+      border-right: solid 1px black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      p {
+        width: 30vw;
+      }
+      button {
+        box-sizing: border-box;
+        appearance: none;
+        background-color: transparent;
+
+        cursor: pointer;
+        display: flex;
+        align-self: center;
+        font-size: 0.9rem;
+
+        margin: 20px;
+        padding: 0.8em 2.2em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+    .profile-picture {
+      width: 30vw;
+      height: 80vh;
+    }
   }
   #section_2 {
     width: 80vw;
     height: 100vh;
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .skills-section {
+      width: 70vw;
+      height: 60vh;
+      background-color: salmon;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+      }
+    }
   }
   #section_3 {
     width: 80vw;
