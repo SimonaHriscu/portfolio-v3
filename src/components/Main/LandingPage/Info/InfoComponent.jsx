@@ -63,7 +63,7 @@ function Info() {
             </li>
           </ul>
           <p>I have become familial with these technologies as well:</p>
-          <ul>
+          <ul className="extra-skills">
             <li>
               <ion-icon name="arrow-redo-outline"></ion-icon>
               <span>Bootstrap</span>
@@ -79,6 +79,14 @@ function Info() {
             <li>
               <ion-icon name="arrow-redo-outline"></ion-icon>
               <span>MongoDB</span>
+            </li>
+            <li>
+              <ion-icon name="arrow-redo-outline"></ion-icon>
+              <span>Express.js</span>
+            </li>
+            <li>
+              <ion-icon name="arrow-redo-outline"></ion-icon>
+              <span>Mongoose</span>
             </li>
           </ul>
         </div>

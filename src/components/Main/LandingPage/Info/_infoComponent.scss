@@ -65,7 +65,7 @@
     align-items: center;
     .skills-section {
       width: 70vw;
-      height: 60vh;
+      height: 80vh;
       border: solid 1px black;
       display: flex;
       flex-direction: column;
@@ -94,10 +94,11 @@
           }
         }
       }
-      ul:nth-of-type(2) {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 4vw;
+      .extra-skills {
+        display: flex;
+        // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: 50px 50px;
+        // column-gap: 4vw;
         li {
           list-style: none;
           ion-icon {
