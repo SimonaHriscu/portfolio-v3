@@ -16,7 +16,9 @@ function Info() {
             <button className="button.btn.fourth">RESUME</button>
           </p>
         </div>
-        <div className="profile-picture">This is profile pic</div>
+        <div className="profile-picture">
+          <div className="profile-picture__container"></div>
+        </div>
       </section>
       <section id={'section_2'}>
         <div className="skills-section">
@@ -31,13 +33,7 @@ function Info() {
           <ul className="skills-gallery">
             <li>
               <ion-icon name="logo-html5"></ion-icon>
-              <p
-                className="skills-gallery__title"
-                className="skills-gallery__title"
-              >
-                {' '}
-                HTML
-              </p>
+              <p className="skills-gallery__title">HTML</p>
             </li>
             <li>
               <ion-icon name="logo-css3"></ion-icon>
@@ -100,6 +96,10 @@ function Info() {
             <li>
               <ion-icon name="add-outline"></ion-icon>
               <span>Mongoose</span>
+            </li>
+            <li>
+              <ion-icon name="add-outline"></ion-icon>
+              <span>Responsive design</span>
             </li>
           </ul>
         </div>
