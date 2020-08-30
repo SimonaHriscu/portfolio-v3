@@ -55,6 +55,14 @@
     .profile-picture {
       width: 30vw;
       height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &__container {
+        width: 20vw;
+        height: 50vh;
+        border: solid 1px black;
+      }
     }
   }
   #section_2 {
@@ -80,7 +88,7 @@
         width: 40vw;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
-        column-gap: 4vw;
+        column-gap: 6vw;
         li {
           list-style: none;
           width: 5vw;
