@@ -1,5 +1,5 @@
 import React from 'react';
-import boxes from './data.json';
+import projectsBoxes from './data.json';
 
 function Section3() {
   return (
@@ -8,7 +8,7 @@ function Section3() {
         <h1>Some Noteworthy projects</h1>
         {/* <p>I have a broad range of projects</p> */}
         <div className="portfolio-section__gallery">
-          {boxes.map((box, i) => {
+          {projectsBoxes.map((box, i) => {
             return (
               <div className="portfolio-section__gallery__box">
                 <div className="project-links">
@@ -34,6 +34,7 @@ function Section3() {
             );
           })}
         </div>
+        <div className="extra-projects"></div>
       </div>
     </section>
   );
