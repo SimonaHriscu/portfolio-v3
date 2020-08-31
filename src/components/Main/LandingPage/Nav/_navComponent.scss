@@ -28,6 +28,24 @@
         list-style: none;
         padding: 1vh 0;
       }
+      .color {
+        background-color: red;
+      }
+      // .non-color {
+      //   background-color: blue;
+      // }
     }
   }
+  // animation: Slide-in 2s, ease-in-out backwards;
+
+  // @keyframes Slide-in {
+  //   0% {
+  //     // width: 70%;
+  //     opacity: 0;
+  //     transform: translateY(50%);
+  //   }
+  //   100% {
+  //     transform: translateY(0%);
+  //   }
+  // }
 }

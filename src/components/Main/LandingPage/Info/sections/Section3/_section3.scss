@@ -7,7 +7,7 @@
   .portfolio-section {
     width: 70vw;
     height: 80vh;
-    border: solid 1px black;
+    //border: solid 1px black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -49,11 +49,12 @@
           justify-content: space-around;
           p:first-of-type {
             width: fit-content;
-            font-size: 1.3vw;
+            font-size: 1.5rem;
           }
           p:last-of-type {
             width: fit-content;
             text-align: justify;
+            font-size: 1rem;
           }
         }
         .project-technologies {
