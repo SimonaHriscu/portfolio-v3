@@ -1,0 +1,74 @@
+[
+  {
+    "link1": "https://github.com/SimonaHriscu/react-online-shop",
+    "link2": "https://simonahriscu.github.io/react-online-shop/",
+    "title": "React online shop",
+    "descr": " Functional shop built with React. Filter, search bar, functional cart, delete item, reset cart function.",
+    "technologies": {
+      "1": "HTML",
+      "2": "SCSS",
+      "3": "React",
+      "4": "JSON"
+    }
+  },
+  {
+    "link1": "https://github.com/SimonaHriscu/to-do-list-in-react",
+    "link2": "https://simonahriscu.github.io/to-do-list-in-react/",
+    "title": "React To-do-list",
+    "descr": " Functional to-do-list built with React. Add new element, check and delete solved tasks functions. React Hooks version also available.",
+    "technologies": {
+      "1": "HTML",
+      "2": "SCSS",
+      "3": "React",
+      "4": "JavaScript"
+    }
+  },
+  {
+    "link1": "https://github.com/SimonaHriscu/morse-code-translator",
+    "link2": "https://simonahriscu.github.io/morse-code-translator/",
+    "title": "Morse Code translator",
+    "descr": "A morse code translator, with a json database and React",
+    "technologies": {
+      "1": "HTML",
+      "2": "SCSS",
+      "3": "React",
+      "4": "JavaScript"
+    }
+  },
+  {
+    "link1": "https://github.com/SimonaHriscu/country-api",
+    "link2": "https://simonahriscu.github.io/country-api/",
+    "title": "Country API call",
+    "descr": "A morse code translator, with a json database and React",
+    "technologies": {
+      "1": "SCSS",
+      "2": "React",
+      "3": "JavaScript",
+      "4": "API"
+    }
+  },
+  {
+    "link1": "https://github.com/SimonaHriscu/self-order-pizza-shop",
+    "link2": "https://simonahriscu.github.io/self-order-pizza-shop/",
+    "title": "Online Self - Order Website / App",
+    "descr": "A self-order pizza website built during the DCI course 2019-2020, with JS and DOM manipulation",
+    "technologies": {
+      "1": "HTML",
+      "2": "SCSS",
+      "3": "JavaScript",
+      "4": "API"
+    }
+  },
+  {
+    "link1": "https://github.com/SimonaHriscu/instagram-copy-w--react",
+    "link2": "https://simonahriscu.github.io/instagram-copy-w--react/",
+    "title": "React Instagram copy",
+    "descr": "A copy of an Instagram page with basic React. Grid responsive gallery",
+    "technologies": {
+      "1": "HTML",
+      "2": "SCSS",
+      "3": "React",
+      "4": "JavaScript"
+    }
+  }
+]

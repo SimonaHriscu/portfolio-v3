@@ -1,4 +1,6 @@
 import React from 'react';
+import Section3 from './sections/Section3';
+import Section4 from './sections/Section4';
 
 function Info() {
   return (
@@ -104,53 +106,8 @@ function Info() {
           </ul>
         </div>
       </section>
-      <section id={'section_3'}>
-        <div className="portfolio-section">
-          <h1>Portfolio</h1>
-          <p>
-            I have a broad range of applicable skills that will enable me to be
-            a valuable member of your team. These include specific technical
-            skills I have developed over the past year along with strong soft
-            skills developed over the course of my career.
-          </p>
-        </div>
-      </section>
-      <section id={'section_4'}>
-        <div className="contact-section">
-          <h1>Contact</h1>
-          <p>Let's work together! Get in touch :</p>
-          <form>
-            {' '}
-            <label for="inputName">First name</label>
-            <input type="firstName" id="firstName" required />
-            <label for="inputName">Last name</label>
-            <input type="lastName" id="lastName" />
-            <label for="inputEmail4">E-mail</label>
-            <input
-              type="e-mail"
-              id="e-mail"
-              placeholder="example@email.com"
-              required
-            />
-            <label for="text">Message:</label>
-            {/* <input
-              type="text"
-              name="text"
-              id="textMsg"
-              required
-              placeholder="Your text here"
-            /> */}
-            <textarea
-              name="text"
-              id="textMsg"
-              rows="10"
-              required
-              placeholder="Your text here"
-            ></textarea>
-            <button type="submit">Send</button>
-          </form>
-        </div>
-      </section>
+      <Section3 />
+      <Section4 />
     </div>
   );
 }

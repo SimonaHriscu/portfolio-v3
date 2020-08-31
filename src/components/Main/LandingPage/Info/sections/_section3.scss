@@ -1,0 +1,69 @@
+#section_3 {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .portfolio-section {
+    width: 70vw;
+    height: 80vh;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    p {
+      width: 40vw;
+    }
+    &__gallery {
+      width: 70vw;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      column-gap: 3vw;
+      row-gap: 3vh;
+      justify-items: center;
+      &__box {
+        width: 15rem;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1vh 1vw;
+        border: solid 1px black;
+        .project-links {
+          display: flex;
+          justify-content: flex-end;
+          a {
+            ion-icon {
+              font-size: 1vw;
+              margin-right: 0.5vw;
+            }
+          }
+        }
+        .project-info {
+          width: fit-content;
+          height: 15vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          p:first-of-type {
+            width: fit-content;
+            font-size: 1.3vw;
+          }
+          p:last-of-type {
+            width: fit-content;
+            text-align: justify;
+          }
+        }
+        .project-technologies {
+          align-self: center;
+          width: 10rem;
+          display: flex;
+          justify-content: space-between;
+          text-align: center;
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
