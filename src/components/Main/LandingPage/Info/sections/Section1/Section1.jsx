@@ -1,5 +1,5 @@
 import React from 'react';
-import Section3 from './Section3';
+import photo from '../img/simona.jpg';
 
 function Section1() {
   return (
@@ -12,11 +12,16 @@ function Section1() {
           odio a velit animi placeat ipsam, quo, inventore nobis ea quae.
         </p>
         <p>
-          <button className="button.btn.fourth">RESUME</button>
+          <a href="#section_3">
+            {' '}
+            <button className="button.btn.fourth">Projects</button>
+          </a>
         </p>
       </div>
       <div className="profile-picture">
-        <div className="profile-picture__container"></div>
+        <div className="profile-picture__container">
+          <img src={photo} alt="profile" />
+        </div>
       </div>
     </section>
   );

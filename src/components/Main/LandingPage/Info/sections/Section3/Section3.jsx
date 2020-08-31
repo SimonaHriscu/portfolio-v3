@@ -1,5 +1,5 @@
 import React from 'react';
-import projectsBoxes from './data.json';
+import projectsBoxes from '../data.json';
 
 function Section3() {
   return (
