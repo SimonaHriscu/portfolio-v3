@@ -20,25 +20,25 @@
     background-color: #204051;
     outline: 1px solid rgb(53, 47, 47);
   }
-  // animation: Open-landing-page 2s;
-  // @keyframes Open-landing-page {
-  //   0% {
-  //     width: 0.1px;
-  //     height: 0.1px;
-  //     opacity: 70%;
-  //   }
-  //   50% {
-  //     width: 100vw;
-  //     height: 5vh;
-  //     opacity: 70%;
-  //   }
+  animation: Open-landing-page 2s;
+  @keyframes Open-landing-page {
+    0% {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 70%;
+    }
+    50% {
+      width: 100vw;
+      height: 5vh;
+      opacity: 70%;
+    }
 
-  //   100% {
-  //     width: 100vw;
-  //     height: 100vh;
-  //     opacity: 100%;
-  //   }
-  // }
+    100% {
+      width: 100vw;
+      height: 100vh;
+      opacity: 100%;
+    }
+  }
 
   //   background-color: #031e31;
 
