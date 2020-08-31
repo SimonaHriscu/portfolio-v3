@@ -8,5 +8,40 @@
   display: flex;
   align-items: center;
   margin-left: 3vw;
-  font-size: 1.2vw;
+  p {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  span {
+    font-size: 1.7rem;
+    margin-top: 1.2vh;
+    animation: Appear 4s, ease-in-out backwards;
+    @keyframes Appear {
+      0% {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      // 0% {
+      //   opacity: 0.5;
+      //   transform: translateX(100%);
+      // }
+      100% {
+        opacity: 1;
+        transform: translateX(0%);
+      }
+    }
+  }
+
+  animation: Slide-in 2s, ease-in-out backwards;
+
+  @keyframes Slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
 }
