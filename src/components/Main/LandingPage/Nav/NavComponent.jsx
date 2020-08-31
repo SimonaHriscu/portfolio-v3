@@ -15,7 +15,7 @@ const Nav = () => {
     }
     // const newArr = menuItems.filter((item, i) => console.log(item));
     // console.log(newArr);
-    setColor(menuItems.indexOf(itemToChange) === i ? 'red' : 'white');
+    //setColor(menuItems.indexOf(itemToChange) === i ? 'red' : 'white');
   };
 
   return (
@@ -24,7 +24,7 @@ const Nav = () => {
         {menuItems.map((menuItem, i) => (
           <a href={links[i]} key={i} style={style}>
             <li onClick={() => updateName(menuItem, i)}>
-              {i}
+              {/* {i} */}
               {menuItem}
             </li>
           </a>
