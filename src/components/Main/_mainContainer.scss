@@ -23,11 +23,6 @@
   animation: Open-landing-page 2s;
   @keyframes Open-landing-page {
     0% {
-      width: 0.1px;
-      height: 0.1px;
-      opacity: 70%;
-    }
-    50% {
       width: 100vw;
       height: 5vh;
       opacity: 70%;
@@ -39,10 +34,4 @@
       opacity: 100%;
     }
   }
-
-  //   background-color: #031e31;
-
-  // margin: 0;
-  // padding: 0;
-  // box-sizing: border-box;
 }
