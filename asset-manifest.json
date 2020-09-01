@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-v3/static/css/main.4069f647.chunk.css",
-    "main.js": "/portfolio-v3/static/js/main.d9a3592e.chunk.js",
-    "main.js.map": "/portfolio-v3/static/js/main.d9a3592e.chunk.js.map",
+    "main.css": "/portfolio-v3/static/css/main.7196073e.chunk.css",
+    "main.js": "/portfolio-v3/static/js/main.cf1a153b.chunk.js",
+    "main.js.map": "/portfolio-v3/static/js/main.cf1a153b.chunk.js.map",
     "runtime-main.js": "/portfolio-v3/static/js/runtime-main.097b8d46.js",
     "runtime-main.js.map": "/portfolio-v3/static/js/runtime-main.097b8d46.js.map",
     "static/js/2.e0cccc7d.chunk.js": "/portfolio-v3/static/js/2.e0cccc7d.chunk.js",
     "static/js/2.e0cccc7d.chunk.js.map": "/portfolio-v3/static/js/2.e0cccc7d.chunk.js.map",
     "index.html": "/portfolio-v3/index.html",
-    "precache-manifest.447ad981f0f99fc5abc2b16a8d0c9557.js": "/portfolio-v3/precache-manifest.447ad981f0f99fc5abc2b16a8d0c9557.js",
+    "precache-manifest.5489a8ed7636d3543f16666308533409.js": "/portfolio-v3/precache-manifest.5489a8ed7636d3543f16666308533409.js",
     "service-worker.js": "/portfolio-v3/service-worker.js",
-    "static/css/main.4069f647.chunk.css.map": "/portfolio-v3/static/css/main.4069f647.chunk.css.map",
+    "static/css/main.7196073e.chunk.css.map": "/portfolio-v3/static/css/main.7196073e.chunk.css.map",
     "static/js/2.e0cccc7d.chunk.js.LICENSE.txt": "/portfolio-v3/static/js/2.e0cccc7d.chunk.js.LICENSE.txt",
     "static/media/loader.gif": "/portfolio-v3/static/media/loader.534b1a10.gif",
     "static/media/simona.jpg": "/portfolio-v3/static/media/simona.564395c5.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.097b8d46.js",
     "static/js/2.e0cccc7d.chunk.js",
-    "static/css/main.4069f647.chunk.css",
-    "static/js/main.d9a3592e.chunk.js"
+    "static/css/main.7196073e.chunk.css",
+    "static/js/main.cf1a153b.chunk.js"
   ]
 }
