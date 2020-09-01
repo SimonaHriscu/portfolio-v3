@@ -27,7 +27,9 @@ function Section4() {
             required
             placeholder="Your message here"
           ></textarea>
-          <button type="submit">Send</button>
+          <a href="mailto:simona_hriscu@yahoo.com?Subject=Hello">
+            <button type="submit">Send</button>
+          </a>
         </form>
       </div>
     </section>
