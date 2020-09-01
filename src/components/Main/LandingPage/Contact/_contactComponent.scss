@@ -19,6 +19,7 @@
       writing-mode: vertical-rl;
       text-orientation: mixed;
       text-transform: uppercase;
+
       div {
         width: 1px;
         height: 20vh;
@@ -29,6 +30,9 @@
         ion-icon {
           font-size: 1.7vw;
           --ionicon-stroke-width: 26px;
+          &:hover {
+            transform: scale(1.1) rotate(-10deg);
+          }
         }
       }
     }
