@@ -6,14 +6,21 @@
   align-items: center;
   .profile-section {
     width: 50vw;
-    height: 80vh;
+    height: 40vh;
     border-right: solid 1px black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    p {
+    justify-content: space-evenly;
+    p:first-of-type,
+    p:nth-of-type(2) {
       width: 30vw;
+      font-size: 3rem;
+    }
+
+    p:last-of-type {
+      width: 30vw;
+      text-align: justify;
     }
     button {
       background-color: transparent;
