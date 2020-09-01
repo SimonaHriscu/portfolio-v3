@@ -1,13 +1,12 @@
 import React from 'react';
-import gif from './img/loader.gif';
 
-console.log(gif);
-function Loading() {
+const Loading = (props) => {
+  console.log(props.gif);
   return (
     <div className="loading">
-      <img src="/static/media/loader.534b1a10.gif" alt="logo" />
+      <img src={props.gif} alt="logo" />
     </div>
   );
-}
+};
 
 export default Loading;

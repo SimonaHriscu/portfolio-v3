@@ -1,6 +1,7 @@
 import React from 'react';
 import Loading from './components/Loading/Loading';
 import MainContainer from './components/Main/MainContainer';
+import Gif from './components/Main/img/loader.gif';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -17,7 +18,7 @@ export default class App extends React.Component {
     }, 4400);
   }
   render() {
-    //if (this.state.loading) return <Loading />;
+    if (this.state.loading) return <Loading gif={Gif} />;
 
     return (
       <div className="App">
