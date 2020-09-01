@@ -13,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
     li {
       list-style: none;
       writing-mode: vertical-rl;
@@ -23,9 +24,12 @@
         height: 20vh;
         background-color: black;
       }
-      ion-icon {
-        font-size: 1.7vw;
-        --ionicon-stroke-width: 26px;
+      a {
+        color: black;
+        ion-icon {
+          font-size: 1.7vw;
+          --ionicon-stroke-width: 26px;
+        }
       }
     }
   }
