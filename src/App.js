@@ -17,7 +17,7 @@ export default class App extends React.Component {
     }, 4400);
   }
   render() {
-    if (this.state.loading) return <Loading />;
+    //if (this.state.loading) return <Loading />;
 
     return (
       <div className="App">
