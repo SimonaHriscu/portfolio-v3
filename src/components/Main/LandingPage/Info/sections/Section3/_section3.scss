@@ -35,6 +35,8 @@
           display: flex;
           justify-content: flex-end;
           a {
+            color: #ef962d;
+            // color: black;
             ion-icon {
               font-size: 1vw;
               margin-right: 0.5vw;
@@ -64,6 +66,7 @@
           justify-content: space-between;
           text-align: center;
           font-size: 0.7rem;
+          color: #ef962d;
         }
       }
     }
