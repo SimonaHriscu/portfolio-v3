@@ -13,23 +13,23 @@
     flex-direction: column;
     justify-content: space-around;
     a {
-      width: 6vw;
-      height: fit-content;
+      width: 9vw;
       text-decoration: none;
       color: black;
       padding-right: 4vw;
-      writing-mode: vertical-rl;
+      writing-mode: vertical-lr;
       text-orientation: mixed;
       text-transform: uppercase;
-      .newClass {
-        background-color: red;
-      }
+      align-self: flex-start;
       li {
+        width: 5vw;
         list-style: none;
         padding: 1vh 0;
+        padding-left: 1vh;
       }
       .color {
-        background-color: red;
+        transition: ease-in-out 1s;
+        background-color: lightgray;
       }
       .non-color {
         background-color: white;
