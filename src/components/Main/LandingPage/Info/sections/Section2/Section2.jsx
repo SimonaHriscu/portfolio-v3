@@ -4,7 +4,6 @@ function Section2() {
   return (
     <section id={'section_2'}>
       <div className="skills-section">
-        {' '}
         <h1>Skills</h1>
         <p className="info-p">
           I have a broad range of applicable skills that will enable me to be a
@@ -52,35 +51,35 @@ function Section2() {
         </p>
         <ul className="extra-skills">
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>Bootstrap</span>
           </li>
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>Redux</span>
           </li>
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>React Hooks</span>
           </li>
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>AJAX/Fetch API</span>
           </li>
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>MongoDB</span>
           </li>
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>Express.js</span>
           </li>
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>Mongoose</span>
           </li>
           <li>
-            <ion-icon name="add-outline"></ion-icon>
+            <ion-icon name="checkmark"></ion-icon>
             <span>Responsive design</span>
           </li>
         </ul>
