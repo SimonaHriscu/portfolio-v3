@@ -18,7 +18,7 @@ export default class App extends React.Component {
     }, 4400);
   }
   render() {
-    // if (this.state.loading) return <Loading gif={Gif} />;
+    if (this.state.loading) return <Loading gif={Gif} />;
 
     return (
       <div className="App">
