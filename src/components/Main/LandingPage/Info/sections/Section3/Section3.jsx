@@ -13,7 +13,6 @@ function Section3() {
               <div className="portfolio-section__gallery__box">
                 <div className="project-links">
                   <a href={box.link1} target="_blank" rel="noopener noreferrer">
-                    {' '}
                     <ion-icon name="logo-github"></ion-icon>
                   </a>
                   <a href={box.link2} target="_blank" rel="noopener noreferrer">
@@ -34,7 +33,6 @@ function Section3() {
             );
           })}
         </div>
-        <div className="extra-projects"></div>
       </div>
     </section>
   );
