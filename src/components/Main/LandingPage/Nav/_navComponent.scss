@@ -28,24 +28,25 @@
         padding-left: 1vh;
       }
       .color {
-        transition: ease-in-out 1s;
-        background-color: lightgray;
+        animation: Slide-in 1s, ease-in;
+        background-color: #e7e8ea;
       }
       .non-color {
         background-color: white;
       }
     }
   }
-  // animation: Slide-in 2s, ease-in-out backwards;
-
-  // @keyframes Slide-in {
-  //   0% {
-  //     // width: 70%;
-  //     opacity: 0;
-  //     transform: translateY(50%);
-  //   }
-  //   100% {
-  //     transform: translateY(0%);
-  //   }
-  // }
+  @keyframes Slide-in {
+    0% {
+      opacity: 1;
+      transform: translateY(50%);
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+  }
 }
