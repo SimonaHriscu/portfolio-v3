@@ -4,6 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  > * {
+    margin-bottom: 10vh;
+  }
   .profile-section {
     width: 50vw;
     height: 45vh;
