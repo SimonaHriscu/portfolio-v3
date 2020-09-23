@@ -12,15 +12,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    p:first-of-type,
-    p:nth-of-type(2) {
-      width: 30vw;
+    > p {
+      //selects only the p children
+      width: 32vw;
       font-size: 3rem;
     }
-
-    p:last-of-type {
-      width: 30vw;
-      text-align: justify;
+    div {
+      line-height: 1.7;
+      :last-child {
+        font-weight: bold;
+      }
+      p {
+        width: 32vw;
+      }
     }
     button {
       background-color: transparent;

@@ -7,12 +7,17 @@ function Section1() {
       <div className="profile-section">
         <p>Hello,</p>
         <p>My name is Simona</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta atque
-          deserunt vitae! Expedita quos incidunt asperiores quam deleniti saepe,
-          odio a velit animi placeat ipsam, quo, inventore nobis ea quae. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nulla!
-        </p>
+        <div>
+          <p>
+            Creative and solution-oriented frontend developer with hands-on
+            technical skills and clean, structured, and maintainable code.
+            Building state-of-the-art, easy to use, innovative designed websites
+            and applications that span multiple technologies is truly a passion
+            of mine.
+          </p>
+          <p>If you think we should work together, feel free to contact me!</p>
+        </div>
+
         <a href="#section_3">
           {' '}
           <button className="button.btn.fourth">Projects</button>
