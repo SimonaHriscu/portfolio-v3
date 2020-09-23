@@ -14,7 +14,7 @@
   {
     "link1": "https://github.com/SimonaHriscu/to-do-list-in-react",
     "link2": "https://simonahriscu.github.io/to-do-list-in-react/",
-    "title": "React To-do-list",
+    "title": "React To do list",
     "descr": " Functional to-do-list built with React. Add new element, check and delete solved tasks functions. React Hooks version also available.",
     "technologies": {
       "1": "HTML",
@@ -26,7 +26,7 @@
   {
     "link1": "https://github.com/SimonaHriscu/morse-code-translator",
     "link2": "https://simonahriscu.github.io/morse-code-translator/",
-    "title": "Morse Code translator",
+    "title": "Morse code translator",
     "descr": "A morse code translator, with a json database and React",
     "technologies": {
       "1": "HTML",
@@ -39,7 +39,7 @@
     "link1": "https://github.com/SimonaHriscu/country-api",
     "link2": "https://simonahriscu.github.io/country-api/",
     "title": "Country API call",
-    "descr": "A morse code translator, with a json database and React",
+    "descr": "Find your favorite country! A country API call built with axios in React. ",
     "technologies": {
       "1": "SCSS",
       "2": "React",
@@ -50,7 +50,7 @@
   {
     "link1": "https://github.com/SimonaHriscu/self-order-pizza-shop",
     "link2": "https://simonahriscu.github.io/self-order-pizza-shop/",
-    "title": "Online Self - Order Website / App",
+    "title": "Online self - order website",
     "descr": "A self-order pizza website built during the DCI course 2019-2020, with JS and DOM manipulation",
     "technologies": {
       "1": "HTML",
