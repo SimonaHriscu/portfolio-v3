@@ -62,3 +62,72 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #section_2 {
+    width: 87vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .skills-section {
+      width: 80vw;
+      height: 90vh;
+      // border: solid 1px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      box-shadow: none;
+      border-radius: none;
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
+      }
+
+      .skills-gallery {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        column-gap: none;
+        li {
+          list-style: none;
+          width: 35vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          height: 10vh;
+          ion-icon {
+            font-size: 9vw;
+          }
+          p {
+            //all the p inside ul
+            font-size: 0.6rem;
+          }
+        }
+      }
+      p {
+        font-size: 0.7rem;
+        text-align: center;
+      }
+      .extra-skills {
+        display: grid;
+        // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10vw;
+        li {
+          list-style: none;
+          ion-icon {
+            font-size: 1.8vw;
+          }
+          span {
+            font-size: 2.8vw;
+            margin-left: 0.4vw;
+          }
+        }
+      }
+    }
+  }
+}
