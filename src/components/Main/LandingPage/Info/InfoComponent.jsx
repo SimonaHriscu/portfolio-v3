@@ -9,8 +9,8 @@ function Info() {
     <div className="landing-info">
       <Section1 />
       <Section2 />
-      {/* <Section3 /> */}
-      {/* <Section4 /> */}
+      <Section3 />
+      <Section4 />
     </div>
   );
 }
