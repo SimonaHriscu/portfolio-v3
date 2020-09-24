@@ -51,17 +51,19 @@
 
 @media only screen and (max-width: 600px) {
   .header {
+    background-color: #fff;
     .hamburger-menu {
       width: 90vw;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
+      margin-right: 10vw;
       .hamburger {
-        width: 8vw;
+        width: 10vw;
         height: 0.8vh;
         background-color: #212529;
-        margin: 0.8vh 0;
+        margin: 0.4vh 0;
         border-radius: 20%;
         cursor: pointer;
         transform-origin: right;
