@@ -28,10 +28,35 @@
       a {
         color: black;
         ion-icon {
-          font-size: 1.7vw;
+          font-size: 2rem;
           --ionicon-stroke-width: 26px;
           &:hover {
             transform: scale(1.1) rotate(-10deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    width: 13vw;
+    ul {
+      width: 13vw;
+      height: 60vh;
+      li {
+        font-size: 0.9rem;
+        div {
+          height: 20vh;
+        }
+        a {
+          color: black;
+          ion-icon {
+            font-size: 1.5rem;
+            &:hover {
+              transform: none;
+            }
           }
         }
       }

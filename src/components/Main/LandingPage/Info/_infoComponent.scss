@@ -12,18 +12,12 @@
   position: relative;
   top: 10vh;
   left: 10vw;
+}
 
-  //animation: Slide-In 2s, ease-in;
-  // @keyframes Slide-In {
-  //   0% {
-  //     opacity: 0%;
-  //     background-color: transparent;
-  //     transform: translateX(50%);
-  //   }
-
-  //   100% {
-  //     opacity: 100%;
-  //     transform: translateX(0%);
-  //   }
-  // }
+@media only screen and (max-width: 600px) {
+  .landing-info {
+    width: 87vw;
+    left: 13vw;
+    overflow-y: scroll;
+  }
 }

@@ -62,3 +62,56 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #section_2 {
+    width: 87vw;
+    height: fit-content;
+    flex-direction: column;
+
+    .skills-section {
+      width: 80vw;
+      height: 90vh;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: none;
+      border-radius: none;
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
+      }
+
+      .skills-gallery {
+        width: 80vw;
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        column-gap: none;
+        li {
+          width: 35vw;
+          height: 12vh;
+          ion-icon {
+            font-size: 10vw;
+          }
+          p {
+            //all the p inside ul
+            font-size: 0.6rem;
+          }
+        }
+      }
+      p {
+        font-size: 0.7rem;
+        text-align: center;
+      }
+      .extra-skills {
+        li {
+          ion-icon {
+            font-size: 1.8vw;
+          }
+          span {
+            font-size: 2.8vw;
+            margin-left: 1vw;
+          }
+        }
+      }
+    }
+  }
+}
