@@ -6,6 +6,11 @@ function Header() {
       <a href="#landing-page">
         <p>S</p> <span>H</span>
       </a>
+      <div class="hamburger-menu">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </div>
     </div>
   );
 }

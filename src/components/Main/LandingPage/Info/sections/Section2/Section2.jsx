@@ -5,12 +5,12 @@ function Section2() {
     <section id={'section_2'}>
       <div className="skills-section">
         <h1>Skills</h1>
-        <p className="info-p">
+        {/* <p className="info-p">
           I have a broad range of applicable skills that will enable me to be a
           valuable member of your team. These include specific technical skills
           I have developed over the past year along with strong soft skills
           developed over the course of my career.
-        </p>
+        </p> */}
         <ul className="skills-gallery">
           <li>
             <ion-icon name="logo-html5"></ion-icon>
