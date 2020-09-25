@@ -1,0 +1,76 @@
+@mixin aligned-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin aligned-vertically-central {
+  display: flex;
+  align-items: center;
+}
+
+@mixin justified-horizontally-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin aligned-vertically-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+@mixin vertical-text {
+  text-orientation: mixed;
+  text-transform: uppercase;
+}
+@mixin column-space-evenly {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@mixin clip-path {
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0%,
+    100% 80%,
+    80% 100%,
+    0% 100%,
+    0% 86%,
+    0% 20%
+  );
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 0%,
+    100% 70%,
+    80% 100%,
+    0% 100%,
+    0% 86%,
+    0% 30%
+  );
+}
+
+@mixin box-shadow-radius {
+  box-shadow: 0px 20px 40px -20px $shadow-color;
+  border-radius: 0.25rem;
+}
+
+@mixin button-settings {
+  background-color: transparent;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  z-index: 1;
+}
