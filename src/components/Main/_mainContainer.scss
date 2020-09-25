@@ -2,22 +2,18 @@
 @import './Header/header';
 
 .main-container {
-  background-color: white;
+  background-color: $background-white;
   width: 100vw;
   height: fit-content;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: flex-end;
   overflow: hidden;
   scroll-behavior: smooth;
-  // &:hover {
-  //   overflow-y: scroll;
-  // }
   &::-webkit-scrollbar {
     width: 0.2em;
   }
   &::-webkit-scrollbar {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px $shadow-color;
   }
   &::-webkit-scrollbar-thumb {
     background-color: #204051;

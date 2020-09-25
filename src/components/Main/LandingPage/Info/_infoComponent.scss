@@ -6,8 +6,7 @@
 .landing-info {
   width: 80vw;
   height: fit-content;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   justify-content: baseline;
   position: relative;
   top: 10vh;

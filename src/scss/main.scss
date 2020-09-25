@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import './mixins';
+@import './var';
 @import '../components/Loading/loading';
 @import '../components/Main/mainContainer';
 
@@ -10,10 +12,10 @@
   .App {
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: $background-black;
     overflow: hidden;
     cursor: default;
-    color: #212529;
+    color: $text-color;
   }
 }
 .slide-in-left-enter {

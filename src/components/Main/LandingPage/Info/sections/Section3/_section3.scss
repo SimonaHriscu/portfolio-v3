@@ -1,17 +1,11 @@
 #section_3 {
   width: 80vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #212529;
+  @include aligned-central;
   .portfolio-section {
     width: 70vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    @include column-space-evenly;
     h1 {
       font-size: 2rem;
     }
@@ -25,20 +19,17 @@
       &__box {
         width: fit-content;
         height: 30vh;
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         justify-content: space-around;
         padding: 1.5vh 1.5vw;
         // background-color: #e7e8ea;
-        box-shadow: 0px 20px 40px -20px rgba(0, 0, 0, 0.4);
-        border-radius: 0.25rem;
+        @include box-shadow-radius;
 
         .project-links {
-          display: flex;
-          justify-content: flex-end;
+          @include justified-horizontally-end;
 
           a {
-            color: #4b5d67;
+            color: $color-link-projects;
             ion-icon {
               font-size: 1.4rem;
               margin-right: 0.5vw;
@@ -51,8 +42,7 @@
         .project-info {
           width: fit-content;
           height: 20vh;
-          display: flex;
-          flex-direction: column;
+          @include flex-column;
           justify-content: space-around;
           p:first-of-type {
             width: fit-content;
@@ -68,10 +58,7 @@
         .project-technologies {
           align-self: center;
           width: fit-content;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          justify-items: center;
+          @include aligned-central;
           color: #4b5d67;
           > * {
             font-size: 1rem;
@@ -88,8 +75,7 @@
   #section_3 {
     width: 87vw;
     height: 235vh;
-    flex-direction: column;
-    color: #212529;
+    @include flex-column;
     margin-bottom: 5vh;
     .portfolio-section {
       width: 80vw;
@@ -118,7 +104,7 @@
                 font-size: 1.2rem;
               }
               :hover {
-                color: #4b5d67;
+                color: $color-link-projects;
               }
             }
           }
