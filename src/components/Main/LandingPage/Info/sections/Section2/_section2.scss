@@ -1,26 +1,16 @@
 #section_2 {
   width: 80vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include aligned-central;
   .skills-section {
     width: 70vw;
     height: 80vh;
     // border: solid 1px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 0px 20px 40px -20px rgba(0, 0, 0, 0.4);
-    border-radius: 0.25rem;
+    @include column-space-evenly;
+    @include box-shadow-radius;
     h1 {
       font-size: 2rem;
     }
-    // .info-p {
-    //   width: 40vw;
-    //   // text-indent: 3vw;
-    // }
     .skills-gallery {
       width: 40vw;
       display: grid;
@@ -29,10 +19,7 @@
       li {
         list-style: none;
         width: 5vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        @include column-space-evenly;
         height: 15vh;
         &__title {
           //all the p inside ul
@@ -46,7 +33,6 @@
     }
     .extra-skills {
       display: grid;
-      // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       grid-template-columns: repeat(2, 1fr);
       column-gap: 10vw;
       li {

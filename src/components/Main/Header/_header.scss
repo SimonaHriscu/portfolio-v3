@@ -4,8 +4,7 @@
   position: fixed;
   top: 0;
   z-index: 10;
-  display: flex;
-  align-items: center;
+  @include aligned-vertically-central;
   margin-left: 3vw;
   a {
     text-decoration: none;
@@ -55,8 +54,7 @@
     background-color: #fff;
     .hamburger-menu {
       width: 90vw;
-      display: flex;
-      justify-content: flex-end;
+      @include justified-horizontally-end;
       margin-right: 10vw;
       ion-icon {
         font-size: 2.5rem;

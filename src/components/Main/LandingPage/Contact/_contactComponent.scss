@@ -1,32 +1,28 @@
 .contact {
   width: 10vw;
   height: 100vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  @include aligned-vertically-end;
   position: fixed;
 
   ul {
     width: 5vw;
     height: 50vh;
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     align-items: center;
     justify-content: space-around;
 
     li {
       list-style: none;
       writing-mode: vertical-rl;
-      text-orientation: mixed;
-      text-transform: uppercase;
+      @include vertical-text;
 
       div {
         width: 1px;
         height: 20vh;
-        background-color: black;
+        background-color: $background-black;
       }
       a {
-        color: black;
+        color: $background-black;
         ion-icon {
           font-size: 2rem;
           --ionicon-stroke-width: 26px;
@@ -51,7 +47,6 @@
           height: 20vh;
         }
         a {
-          color: black;
           ion-icon {
             font-size: 1.5rem;
             &:hover {

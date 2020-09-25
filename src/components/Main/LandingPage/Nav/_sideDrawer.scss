@@ -10,7 +10,7 @@
     z-index: 100;
     height: 100%;
     width: 90%;
-    background: #fff;
+    background: $background-white;
     display: flex;
     .nav {
       width: 50vw;
@@ -26,7 +26,7 @@
         a {
           width: 50vw;
           text-decoration: none;
-          color: #000000;
+          color: $background-black;
           writing-mode: horizontal-tb;
           text-transform: uppercase;
           //   for no more blue background:

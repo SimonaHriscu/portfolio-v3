@@ -4,18 +4,16 @@
   position: fixed;
   top: 10vh;
   right: 0;
-  display: flex;
-  justify-content: flex-end;
+  @include justified-horizontally-end;
   ul {
     height: 70vh;
     width: 5vw;
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     justify-content: space-around;
     a {
       width: 9vw;
       text-decoration: none;
-      color: black;
+      color: $background-black;
       padding-right: 4vw;
       writing-mode: vertical-lr;
       text-orientation: mixed;
@@ -29,10 +27,10 @@
       }
       .color {
         animation: Slide-in 1s, ease-in;
-        background-color: #e7e8ea;
+        background-color: $nav-selected-color;
       }
       .non-color {
-        background-color: white;
+        background-color: $background-white;
       }
     }
   }
