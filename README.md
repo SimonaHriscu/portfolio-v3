@@ -1,6 +1,13 @@
-# Portfolio In React
+# Personal website built with React
 
-![Imgur](https://imgur.com/T78p3qR.png)
+## Development tools and frameworks used:
+
+<h1>
+<img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
+<img src="https://imgur.com/fZuu2v0.png" alt="React" width="10%">
+<img src="https://imgur.com/plyrZV7.png" alt="React" width="10%">
+<img src="https://imgur.com/lXP1Rph.png" alt="React" width="10%">
+</h1>
 
 ## Available Scripts
 
