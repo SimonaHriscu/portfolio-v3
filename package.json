@@ -12,6 +12,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1",
     "sass": "^1.26.10"
   },
   "scripts": {

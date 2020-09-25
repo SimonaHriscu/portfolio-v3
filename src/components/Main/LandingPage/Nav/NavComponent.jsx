@@ -20,7 +20,7 @@ class Nav extends React.Component {
       <div className="nav">
         <ul>
           {this.menuItems.map((menuItem, i) => (
-            <a href={this.links[i]}>
+            <a href={this.links[i]} key={i}>
               <li
                 key={i}
                 onClick={() => this.updateIndex(i)}
@@ -39,17 +39,3 @@ class Nav extends React.Component {
 }
 
 export default Nav;
-
-{
-  /* <ul>
-        {menuItems.map((menuItem, i) => (
-          <a href={links[i]} key={i}>
-            {menuItems.indexOf(menuItem) === i ? (
-              <li style={{ backgroundColor: 'red' }}>{menuItem}</li>
-            ) : (
-              <li style={{ backgroundColor: 'white' }}>{menuItem}</li>
-            )}
-          </a>
-        ))}
-      </ul> */
-}

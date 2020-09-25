@@ -1,18 +1,16 @@
 import React from 'react';
 
-function Header() {
+const Header = (props) => {
   return (
     <div className="header">
       <a href="#landing-page">
         <p>S</p> <span>H</span>
       </a>
-      <div class="hamburger-menu">
-        <div class="hamburger"></div>
-        <div class="hamburger"></div>
-        <div class="hamburger"></div>
+      <div className="hamburger-menu" onClick={props.open}>
+        <ion-icon name="menu"></ion-icon>
       </div>
     </div>
   );
-}
+};
 
 export default Header;
