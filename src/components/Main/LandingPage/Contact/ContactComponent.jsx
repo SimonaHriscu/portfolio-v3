@@ -3,7 +3,7 @@ import React from 'react';
 const links = [
   'https://www.linkedin.com/in/simona-hriscu/',
   'https://github.com/SimonaHriscu',
-  'mailto:simona_hriscu@yahoo.com?Subject=Hello',
+  'mailto:simona.hriscu06@gmail.com?Subject=Hello',
 ];
 const names = ['logo-linkedin', 'logo-github', 'mail'];
 
