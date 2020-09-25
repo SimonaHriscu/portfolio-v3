@@ -16,9 +16,7 @@
       font-size: 3rem;
       font-weight: bold;
     }
-    .hamburger {
-      display: none;
-    }
+
     span {
       font-size: 1.7rem;
       margin-top: 1.8vh;
@@ -34,6 +32,9 @@
         }
       }
     }
+  }
+  .hamburger-menu {
+    display: none;
   }
 
   animation: Slide-in 2s, ease-in backwards;
@@ -55,19 +56,12 @@
     .hamburger-menu {
       width: 90vw;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
+      justify-content: flex-end;
       margin-right: 10vw;
-      .hamburger {
-        width: 10vw;
-        height: 0.8vh;
-        background-color: #212529;
-        margin: 0.4vh 0;
-        border-radius: 20%;
-        cursor: pointer;
-        transform-origin: right;
-        transition: transform 0.5s;
+      ion-icon {
+        font-size: 2.5rem;
+        height: 3rem;
+        color: #212529;
       }
     }
   }
