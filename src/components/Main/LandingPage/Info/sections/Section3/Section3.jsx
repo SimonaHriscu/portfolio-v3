@@ -10,7 +10,7 @@ function Section3() {
         <div className="portfolio-section__gallery">
           {projectsBoxes.map((box, i) => {
             return (
-              <div className="portfolio-section__gallery__box">
+              <div className="portfolio-section__gallery__box" key={i}>
                 <div className="project-links">
                   <a href={box.link1} target="_blank" rel="noopener noreferrer">
                     <ion-icon name="logo-github"></ion-icon>

@@ -66,7 +66,7 @@
 @media only screen and (max-width: 600px) {
   #section_2 {
     width: 87vw;
-    height: fit-content;
+    height: 110vh;
     flex-direction: column;
 
     .skills-section {
@@ -85,8 +85,9 @@
         width: 80vw;
         grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
         column-gap: none;
+        justify-items: center;
         li {
-          width: 35vw;
+          width: 25vw;
           height: 12vh;
           ion-icon {
             font-size: 10vw;

@@ -87,16 +87,16 @@
 @media only screen and (max-width: 600px) {
   #section_3 {
     width: 87vw;
-    height: fit-content;
+    height: 235vh;
     flex-direction: column;
     color: #212529;
-    margin: 4vh 0;
+    margin-bottom: 5vh;
     .portfolio-section {
       width: 80vw;
       height: fit-content;
       h1 {
         font-size: 1.5rem;
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
         text-align: center;
       }
       &__gallery {
