@@ -69,3 +69,34 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #section_4 {
+    width: 87vw;
+    height: 90vh;
+    flex-direction: column;
+    .contact-section {
+      width: 80vw;
+      height: 90vh;
+      box-shadow: none;
+      border-radius: none;
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
+      }
+      p {
+        width: 80vw;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+      form {
+        width: 80vw;
+        height: 70vh;
+        input,
+        textarea {
+          width: 60vw;
+        }
+      }
+    }
+  }
+}
