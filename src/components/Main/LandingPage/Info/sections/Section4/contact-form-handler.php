@@ -10,7 +10,7 @@ $email_subject='New form submission';
 $headers="From: $visitor_email \r\n";
 $txt= "You have received an e-mail from: $name \n\n".$message;
 
-mail($to,$email_subject, $email_body, $headers, $txt);
+mail($email_to,$email_subject, $headers, $txt);
 header("Location: Section4.jsx")
 }
 ?>
