@@ -6,43 +6,30 @@ function Section4() {
       <div className="contact-section">
         <h1>Contact</h1>
         <p>Let's work together! Get in touch :</p>
-        <form id="contact-form" method="post" action="contact-form-handler.php">
+        <form>
           {' '}
           <label htmlFor="inputName">First name</label>
-          <input
-            type="firstName"
-            name="name"
-            id="firstName"
-            className="form-control"
-            required
-          />
+          <input type="firstName" id="firstName" required />
           <label htmlFor="inputName">Last name</label>
-          <input
-            type="lastName"
-            id="lastName"
-            className="form-control"
-            name="name"
-          />
+          <input type="lastName" id="lastName" />
           <label htmlFor="inputEmail4">E-mail</label>
           <input
-            type="email"
-            id="email"
-            name="email"
+            type="e-mail"
+            id="e-mail"
             placeholder="example@email.com"
             required
           />
           <label htmlFor="text">Message:</label>
           <textarea
-            name="message"
+            name="text"
             id="textMsg"
             rows="10"
-            className="form-control"
             required
             placeholder="Your message here"
           ></textarea>
-          <button type="submit" className="form-control" value="SEND MESSAGE">
-            Send
-          </button>
+          <a href="mailto:simona_hriscu@yahoo.com?Subject=Hello">
+            <button type="submit">Send</button>
+          </a>
         </form>
       </div>
     </section>
