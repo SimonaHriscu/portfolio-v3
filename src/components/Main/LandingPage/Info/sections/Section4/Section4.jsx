@@ -11,16 +11,23 @@ function Section4() {
           <label htmlFor="inputName">First name</label>
           <input
             type="firstName"
+            name="name"
             id="firstName"
             className="form-control"
             required
           />
           <label htmlFor="inputName">Last name</label>
-          <input type="lastName" id="lastName" className="form-control" />
+          <input
+            type="lastName"
+            id="lastName"
+            className="form-control"
+            name="name"
+          />
           <label htmlFor="inputEmail4">E-mail</label>
           <input
-            type="e-mail"
-            id="e-mail"
+            type="email"
+            id="email"
+            name="email"
             placeholder="example@email.com"
             required
           />
