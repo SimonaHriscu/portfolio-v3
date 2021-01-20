@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Loading = (props) => {
-  //console.log(props.gif);
+const Loading = ({gif}) => {
   return (
     <div className="loading">
-      <img src={props.gif} alt="logo" />
+      <img src={gif} alt="logo" />
     </div>
   );
 };
