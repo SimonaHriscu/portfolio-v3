@@ -7,7 +7,7 @@ const links = [
 ];
 const names = ['logo-linkedin', 'logo-github', 'mail'];
 
-function Contact() {
+export default function Contact() {
   return (
     <div className="contact">
       <ul>
@@ -17,10 +17,8 @@ function Contact() {
         </li>
         {names.map((name, i) => (
           <li key={i} className="contact-icons">
-            {' '}
             <a href={links[i]} target="_black">
-              {' '}
-              <ion-icon name={name}></ion-icon>
+              <ion-icon name={name}/>
             </a>
           </li>
         ))}
@@ -29,4 +27,3 @@ function Contact() {
   );
 }
 
-export default Contact;
