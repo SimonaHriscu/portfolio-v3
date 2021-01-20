@@ -1,6 +1,7 @@
 import React from 'react';
+import gif from './loader.gif';
 
-const Loading = ({gif}) => {
+const Loading = () => {
   return (
     <div className="loading">
       <img src={gif} alt="logo" />

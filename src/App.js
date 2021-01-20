@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Loading from "./components/Loading/Loading";
-import MainContainer from "./components/Main/MainContainer";
-import Gif from "./components/Main/img/loader.gif";
+import Loading from "components/Loading/Loading";
+import MainContainer from "components/Main/MainContainer";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -11,7 +10,7 @@ const App = () => {
     }, 4400);
   }, []);
   return loading ? (
-    <Loading gif={Gif} />
+    <Loading />
   ) : (
     <div className="App">
       <MainContainer />
