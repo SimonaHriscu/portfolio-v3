@@ -13,7 +13,7 @@ export default function Section1() {
         </div>
         <div>
           <p>
-            Creative and solution-oriented frontend developer with hands-on
+            Creative and solution-oriented software developer with hands-on
             technical skills and clean, structured, and maintainable code.
             Building state-of-the-art, easy to use, innovative designed websites
             and applications that span multiple technologies is truly a passion

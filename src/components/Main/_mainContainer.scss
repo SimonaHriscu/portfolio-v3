@@ -1,5 +1,5 @@
-@import './LandingPage/landingPageComponent';
-@import './Header/header';
+@import "./LandingPage/landingPageComponent";
+@import "./Header/header";
 
 .main-container {
   background-color: $background-white;
@@ -7,7 +7,7 @@
   height: fit-content;
   @include flex-column;
   justify-content: flex-end;
-  overflow: hidden;
+  overflow: scroll;
   scroll-behavior: smooth;
   &::-webkit-scrollbar {
     width: 0.2em;

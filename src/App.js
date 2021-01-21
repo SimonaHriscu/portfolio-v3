@@ -9,12 +9,14 @@ const App = () => {
       setLoading(false);
     }, 4400);
   }, []);
-  return loading ? (
-    <Loading />
-  ) : (
+  return (
+    //loading ? (
+    //   <Loading />
+    // ) : (
     <div className="App">
       <MainContainer />
     </div>
   );
+  //);
 };
 export default App;

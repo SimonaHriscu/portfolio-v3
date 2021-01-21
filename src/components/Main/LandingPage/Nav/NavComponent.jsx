@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 class Nav extends React.Component {
   menuItems = [
@@ -16,24 +18,26 @@ class Nav extends React.Component {
     this.setState({ currentIndex: i });
   }
   render() {
-    return (
+    return ( 
+    <Router>
       <div className="nav">
         <ul>
           {this.menuItems.map((menuItem, i) => (
-            <a href={this.links[i]} key={i}>
+            <HashLink to={this.links[i]} key={i} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
               <li
                 key={i}
                 onClick={() => this.updateIndex(i)}
                 className={
                   this.state.currentIndex === i ? 'color' : 'not-color'
                 }
-              >
+                >
                 {menuItem.title}
               </li>
-            </a>
+            </HashLink>  
           ))}
         </ul>
-      </div>
+      </div> 
+      </Router>
     );
   }
 }
