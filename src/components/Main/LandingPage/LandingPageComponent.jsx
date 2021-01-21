@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Contact from './Contact/ContactComponent';
 import Info from './Info/InfoComponent';
 import Nav from './Nav/NavComponent';

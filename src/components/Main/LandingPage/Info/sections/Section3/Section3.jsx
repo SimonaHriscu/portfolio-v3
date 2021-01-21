@@ -3,7 +3,7 @@ import projectsBoxes from '../data.json';
 
 function Section3() {
   return (
-    <section id={'section_3'}>
+    <section id={'portfolio'}>
       <div className="portfolio-section">
         <h1>Some Noteworthy projects</h1>
         <div className="portfolio-section__gallery">
