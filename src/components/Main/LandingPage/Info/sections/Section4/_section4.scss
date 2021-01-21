@@ -1,4 +1,4 @@
-#section_4 {
+#contact {
   width: 80vw;
   height: 100vh;
   @include aligned-central;
@@ -42,7 +42,7 @@
           }
         }
       }
-      [type='submit'] {
+      [type="submit"] {
         margin: 20px;
         padding: 0.5em 1.6em;
         @include button-settings;

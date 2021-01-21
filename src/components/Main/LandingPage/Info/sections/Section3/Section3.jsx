@@ -3,20 +3,19 @@ import projectsBoxes from '../data.json';
 
 function Section3() {
   return (
-    <section id={'section_3'}>
+    <section id={'portfolio'}>
       <div className="portfolio-section">
         <h1>Some Noteworthy projects</h1>
-        {/* <p>I have a broad range of projects</p> */}
         <div className="portfolio-section__gallery">
           {projectsBoxes.map((box, i) => {
             return (
               <div className="portfolio-section__gallery__box" key={i}>
                 <div className="project-links">
                   <a href={box.link1} target="_blank" rel="noopener noreferrer">
-                    <ion-icon name="logo-github"></ion-icon>
+                    <ion-icon name="logo-github"/>
                   </a>
                   <a href={box.link2} target="_blank" rel="noopener noreferrer">
-                    <ion-icon name="open-outline"></ion-icon>
+                    <ion-icon name="open-outline"/>
                   </a>
                 </div>
                 <div className="project-info">

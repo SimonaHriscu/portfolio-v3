@@ -1,41 +1,43 @@
 import React from 'react';
+import { BrowserRouter as Router} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
-class Nav extends React.Component {
-  menuItems = [
+
+const Nav=()=>{
+  const menuItems = [
     { title: 'about me' },
     { title: 'skills' },
     { title: 'portfolio' },
     { title: 'contact' },
   ];
-  links = ['#landing-page', '#section_2', '#section_3', '#section_4'];
-  state = {
-    currentIndex: 0,
-  };
+  const links = ['#landing-page', '#skills', '#portfolio', '#contact'];
+  const[index, setIndex]= React.useState({ currentIndex: 0 })
 
-  updateIndex(i) {
-    this.setState({ currentIndex: i });
+  const handleUpdate=(i)=> {
+    setIndex({ currentIndex: i });
   }
-  render() {
-    return (
+
+  return ( 
+    <Router>
       <div className="nav">
         <ul>
-          {this.menuItems.map((menuItem, i) => (
-            <a href={this.links[i]} key={i}>
+          {menuItems.map((menuItem, i) => (
+            <HashLink to={links[i]} key={i} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}>
               <li
                 key={i}
-                onClick={() => this.updateIndex(i)}
+                onClick={() => handleUpdate(i)}
                 className={
-                  this.state.currentIndex === i ? 'color' : 'not-color'
+                  index.currentIndex === i ? 'color' : 'not-color'
                 }
-              >
+                >
                 {menuItem.title}
               </li>
-            </a>
+            </HashLink>  
           ))}
         </ul>
-      </div>
+      </div> 
+      </Router>
     );
-  }
 }
 
 export default Nav;

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Section4() {
   return (
-    <section id={'section_4'}>
+    <section id={'contact'}>
       <div className="contact-section">
         <h1>Contact</h1>
         <p>Let's work together! Get in touch :</p>

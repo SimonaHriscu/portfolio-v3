@@ -1,4 +1,4 @@
-#section_3 {
+#portfolio {
   width: 80vw;
   height: 100vh;
   @include aligned-central;
@@ -22,7 +22,6 @@
         @include flex-column;
         justify-content: space-around;
         padding: 1.5vh 1.5vw;
-        // background-color: #e7e8ea;
         @include box-shadow-radius;
 
         .project-links {

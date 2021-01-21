@@ -1,5 +1,17 @@
 [
   {
+    "link1": "https://github.com/SimonaHriscu/mern-veggy-website",
+    "link2": "https://fresh-veggies.herokuapp.com/",
+    "title": "MERN veggy",
+    "descr": " Veggies is a platform to connect farmers and clients. This project is the Final Project of our Web Development Course.",
+    "technologies": {
+      "1": "React",
+      "2": "Redux",
+      "3": "Express",
+      "4": "MongoDB"
+    }
+  },
+  {
     "link1": "https://github.com/SimonaHriscu/react-online-shop",
     "link2": "https://simonahriscu.github.io/react-online-shop/",
     "title": "React online shop",
@@ -69,6 +81,18 @@
       "2": "SCSS",
       "3": "React",
       "4": "JavaScript"
+    }
+  },
+  {
+    "link1": "https://github.com/SimonaHriscu/radio-streamer-w--react",
+    "link2": "https://simonahriscu.github.io/radio-streamer-w--react/",
+    "title": "Radio streamer",
+    "descr": " Radio streamer built with React.js and React Hooks",
+    "technologies": {
+      "1": "React",
+      "2": "Hooks",
+      "3": "JavaScript",
+      "4": "SCSS"
     }
   }
 ]
