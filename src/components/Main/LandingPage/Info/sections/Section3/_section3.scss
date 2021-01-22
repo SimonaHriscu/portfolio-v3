@@ -5,24 +5,84 @@
   .portfolio-section {
     width: 70vw;
     height: 100vh;
+    @media (min-width: 1901px) {
+      height: 90vh;
+      width: 80vw;
+      margin-top: 5rem;
+    }
+    @media (max-width: 1900px) {
+      height: 90vh;
+      margin-top: 3rem;
+      width: 80vw;
+    }
+    @media (max-width: 600px) {
+      margin-top: 6rem;
+    }
     @include column-space-evenly;
     h1 {
       font-size: 2rem;
+      @media (max-width: 600px) {
+        font-size: 1.8rem;
+      }
+      @media (max-width: 483px) {
+        font-size: 1.5rem;
+      }
     }
     &__gallery {
       width: 70vw;
-      height: fit-content;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-      column-gap: 3vw;
-      row-gap: 5vh;
+      height: 80vh;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: space-around;
+      @media (min-width: 1901px) {
+        height: 90vh;
+        width: 80vw;
+      }
+      @media (max-width: 1900px) {
+        height: 90vh;
+        width: 80vw;
+      }
+
       &__box {
-        width: fit-content;
-        height: 30vh;
+        width: 20rem;
+        height: 20rem;
         @include flex-column;
         justify-content: space-around;
         padding: 1.5vh 1.5vw;
         @include box-shadow-radius;
+        @media (max-width: 1600px) {
+          width: 17rem;
+          height: 17rem;
+        }
+        @media (max-width: 1020px) {
+          width: 15rem;
+          height: 15rem;
+        }
+        @media (max-width: 900px) {
+          width: 13rem;
+          height: 13rem;
+        }
+        @media (max-width: 780px) {
+          width: 16rem;
+          height: 13rem;
+        }
+        @media (max-width: 640px) {
+          width: 13rem;
+          height: 13rem;
+        }
+        @media (max-width: 520px) {
+          width: 12rem;
+          height: 12rem;
+        }
+        @media (max-width: 520px) {
+          height: 6rem;
+        }
+        @media (max-width: 480px) {
+          height: 4rem;
+          width: 20rem;
+        }
 
         .project-links {
           @include justified-horizontally-end;
@@ -32,6 +92,9 @@
             ion-icon {
               font-size: 1.4rem;
               margin-right: 0.5vw;
+              @media (max-width: 1600px) {
+                font-size: 1.2rem;
+              }
             }
             :hover {
               color: #f3f3f3;
@@ -46,12 +109,24 @@
           p:first-of-type {
             width: fit-content;
             font-size: 1.2rem;
+            @media (max-width: 1900px) {
+              font-size: 1.3rem;
+            }
+            @media (max-width: 1021px) {
+              font-size: 1.2rem;
+            }
           }
           p:last-of-type {
             width: fit-content;
             height: 10vh;
             text-align: justify;
             font-size: 0.9rem;
+            @media (max-width: 900px) {
+              font-size: 0.8rem;
+            }
+            @media (max-width: 520px) {
+              display: none;
+            }
           }
         }
         .project-technologies {
@@ -63,6 +138,15 @@
             font-size: 1rem;
             width: fit-content;
             padding: 0.3vw;
+            @media (max-width: 1900px) {
+              font-size: 0.9rem;
+            }
+            @media (max-width: 1600px) {
+              font-size: 0.8rem;
+            }
+            @media (max-width: 520px) {
+              display: none;
+            }
           }
         }
       }
@@ -83,44 +167,6 @@
         font-size: 1.5rem;
         margin-bottom: 5vh;
         text-align: center;
-      }
-      &__gallery {
-        width: 80vw;
-        height: fit-content;
-        justify-items: center;
-        row-gap: 3vh;
-        &__box {
-          width: 70vw;
-          height: 30vh;
-          padding: 1.5vh 2.5vw;
-
-          .project-links {
-            display: flex;
-            justify-content: flex-end;
-
-            a {
-              ion-icon {
-                font-size: 1.2rem;
-              }
-              :hover {
-                color: $color-link-projects;
-              }
-            }
-          }
-          .project-info {
-            p:first-of-type {
-              font-size: 1rem;
-            }
-            p:last-of-type {
-              font-size: 0.7rem;
-            }
-          }
-          .project-technologies {
-            > * {
-              font-size: 0.8rem;
-            }
-          }
-        }
       }
     }
   }

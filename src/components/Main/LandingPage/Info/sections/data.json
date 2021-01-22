@@ -12,6 +12,30 @@
     }
   },
   {
+    "link1": "https://github.com/SimonaHriscu/authentication-form",
+    "link2": "https://mern-auth01.herokuapp.com/",
+    "title": "Authentication form",
+    "descr": "Basic authentication page in React with Redux and Express. Deployed on Heroku",
+    "technologies": {
+      "1": "React",
+      "2": "Express",
+      "3": "MongoDB",
+      "4": "AtlasDB"
+    }
+  },
+  {
+    "link1": "https://github.com/SimonaHriscu/radio-streamer-w--react",
+    "link2": "https://simonahriscu.github.io/radio-streamer-w--react/",
+    "title": "Radio streamer",
+    "descr": " Radio streamer built with React.js and React Hooks",
+    "technologies": {
+      "1": "React",
+      "2": "Hooks",
+      "3": "JavaScript",
+      "4": "SCSS"
+    }
+  },
+  {
     "link1": "https://github.com/SimonaHriscu/react-online-shop",
     "link2": "https://simonahriscu.github.io/react-online-shop/",
     "title": "React online shop",
@@ -62,7 +86,7 @@
   {
     "link1": "https://github.com/SimonaHriscu/self-order-pizza-shop",
     "link2": "https://simonahriscu.github.io/self-order-pizza-shop/",
-    "title": "Online self - order website",
+    "title": "Pizza shop",
     "descr": "A self-order pizza website built during the DCI course 2019-2020, with JS and DOM manipulation",
     "technologies": {
       "1": "HTML",
@@ -70,29 +94,6 @@
       "3": "JavaScript",
       "4": "API"
     }
-  },
-  {
-    "link1": "https://github.com/SimonaHriscu/instagram-copy-w--react",
-    "link2": "https://simonahriscu.github.io/instagram-copy-w--react/",
-    "title": "React Instagram copy",
-    "descr": "A copy of an Instagram page with basic React. Grid responsive gallery",
-    "technologies": {
-      "1": "HTML",
-      "2": "SCSS",
-      "3": "React",
-      "4": "JavaScript"
-    }
-  },
-  {
-    "link1": "https://github.com/SimonaHriscu/radio-streamer-w--react",
-    "link2": "https://simonahriscu.github.io/radio-streamer-w--react/",
-    "title": "Radio streamer",
-    "descr": " Radio streamer built with React.js and React Hooks",
-    "technologies": {
-      "1": "React",
-      "2": "Hooks",
-      "3": "JavaScript",
-      "4": "SCSS"
-    }
   }
+  
 ]
