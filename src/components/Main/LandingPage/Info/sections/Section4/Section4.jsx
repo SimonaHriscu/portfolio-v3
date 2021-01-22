@@ -29,8 +29,8 @@ export default class MyForm extends React.Component {
           <input type="lastName" id="lastName" />
           <label >E-mail</label>
           <input
-            type="e-mail"
-            id="e-mail"
+            type="text"
+            name="_replyto"
             placeholder="example@email.com"
             required
           />
