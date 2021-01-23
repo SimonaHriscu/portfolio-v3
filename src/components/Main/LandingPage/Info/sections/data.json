@@ -3,7 +3,7 @@
     "link1": "https://github.com/SimonaHriscu/mern-veggy-website",
     "link2": "https://fresh-veggies.herokuapp.com/",
     "title": "MERN veggy",
-    "descr": " Veggies is a platform to connect farmers and clients. This project is the Final Project of our Web Development Course.",
+    "descr": " Veggies is a platform to connect farmers and clients. This project is the Final Project of the 2019-2020 Web Development Course at DCI.",
     "technologies": {
       "1": "React",
       "2": "Redux",
@@ -15,7 +15,7 @@
     "link1": "https://github.com/SimonaHriscu/authentication-form",
     "link2": "https://mern-auth01.herokuapp.com/",
     "title": "Authentication form",
-    "descr": "Basic authentication page in React with Redux and Express. Deployed on Heroku",
+    "descr": "Basic authentication page in React with Express and MongoDB. Deployed on Heroku",
     "technologies": {
       "1": "React",
       "2": "Express",
