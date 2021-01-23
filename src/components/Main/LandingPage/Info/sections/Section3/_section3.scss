@@ -52,6 +52,12 @@
         justify-content: space-around;
         padding: 1.5vh 1.5vw;
         @include box-shadow-radius;
+        @media (min-width: 1100px) {
+          &:hover {
+            box-shadow: 0px 20px 30px -5px $shadow-color;
+          }
+        }
+
         @media (max-width: 1600px) {
           width: 17rem;
           height: 17rem;
