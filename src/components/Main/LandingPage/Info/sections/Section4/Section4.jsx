@@ -45,7 +45,7 @@ export default class MyForm extends React.Component {
           <a href="mailto:simona_hriscu@yahoo.com?Subject=Hello">
             <button type="submit">Send</button>
           </a>
-          {status === "SUCCESS" ? <p>Thanks for you message!</p> :''}
+          {status === "SUCCESS" ? <p>Thanks for your message!</p> :''}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
       </div>
