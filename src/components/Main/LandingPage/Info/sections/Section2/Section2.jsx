@@ -17,7 +17,6 @@ import json from "assets/json.svg";
 import adobe from "assets/adobexd.svg";
 import figma from "assets/figma.svg";
 import photoshop from "assets/photoshop.svg";
-import photo from 'assets/css.svg';
 
 const data = [
   html,
@@ -39,9 +38,27 @@ const data = [
   figma,
   photoshop,
 ];
-function Section2() {
-  console.log(photo);
 
+const titles=[
+  "html",
+  "css",
+  "sass",
+  "javascript",
+  "react",
+  "react native",
+  "redux",
+  "node",
+  "express",
+  "mongoDB",
+  "git",
+  "gitHub",
+  "terminal",
+  "vsc",
+  "json",
+  "adobe",
+  "figma",
+  "photoshop",]
+function Section2() {
   return (
     <section id={"skills"}>
       <div className="skills-section">
@@ -50,8 +67,8 @@ function Section2() {
 
         {data.map((item, i) => (
           <div key={i}>
-            <img src={`${item}`} alt={data[1]} width="50" height="50" />
-        <p  className="skills-gallery__title">{data[i].slice(14,-13).toUpperCase()}</p>
+            <img src={`${item}`} alt={titles[i]} width="50" height="50" />
+        <p className="skills-gallery__title">{titles[i].toUpperCase()}</p>
           </div>
         ))}
         </div>
