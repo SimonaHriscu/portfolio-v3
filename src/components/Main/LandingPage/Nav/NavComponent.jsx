@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 
 const Nav = ({ scrollTop }) => {
   const menuItems = [
@@ -28,34 +26,21 @@ const Nav = ({ scrollTop }) => {
     }
   }, [scrollTop]);
 
-  const handleUpdate = (i) => {
-    setIndex({ currentIndex: i });
-  };
-
   return (
-    <Router>
-      <div className="nav">
-        <ul>
-          {menuItems.map((menuItem, i) => (
-            <HashLink
-              to={links[i]}
+    <div className="nav">
+      <ul>
+        {menuItems.map((menuItem, i) => (
+          <a href={links[i]} key={i}>
+            <li
               key={i}
-              scroll={(el) =>
-                el.scrollIntoView({ behavior: "smooth", block: "start" })
-              }
+              className={index.currentIndex === i ? "color" : "not-color"}
             >
-              <li
-                key={i}
-                onClick={() => handleUpdate(i)}
-                className={index.currentIndex === i ? "color" : "not-color"}
-              >
-                {menuItem.title}
-              </li>
-            </HashLink>
-          ))}
-        </ul>
-      </div>
-    </Router>
+              {menuItem.title}
+            </li>
+          </a>
+        ))}
+      </ul>
+    </div>
   );
 };
 
