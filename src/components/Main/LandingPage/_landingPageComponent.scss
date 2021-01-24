@@ -1,12 +1,22 @@
-@import './Contact/contactComponent';
-@import './Info/infoComponent';
-@import './Nav/navComponent';
-@import './Nav/sideDrawer';
-@import './Nav/backdrop';
+@import "./Contact/contactComponent";
+@import "./Info/infoComponent";
+@import "./Nav/navComponent";
+@import "./Nav/sideDrawer";
+@import "./Nav/backdrop";
 
 .landing-page {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: row;
+  animation: Open-landing-page 2s;
+  @keyframes Open-landing-page {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
 }
