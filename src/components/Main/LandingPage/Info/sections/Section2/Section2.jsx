@@ -1,55 +1,67 @@
-import React from 'react';
+import React from "react";
+import html from "assets/html.svg";
+import css from "assets/css.svg";
+import sass from "assets/sass.svg";
+import javascript from "assets/javascript.svg";
+import react from "assets/react.svg";
+import reactNative from "assets/react native.svg";
+import redux from "assets/redux.svg";
+import node from "assets/node.svg";
+import express from "assets/express.svg";
+import mongoDB from "assets/mongodb.svg";
+import git from "assets/git.svg";
+import gitHub from "assets/github.svg";
+import terminal from "assets/terminal.svg";
+import vsc from "assets/vsc.svg";
+import json from "assets/json.svg";
+import adobe from "assets/adobexd.svg";
+import figma from "assets/figma.svg";
+import photoshop from "assets/photoshop.svg";
+import photo from 'assets/css.svg';
 
+const data = [
+  html,
+  css,
+  sass,
+  javascript,
+  react,
+  reactNative,
+  redux,
+  node,
+  express,
+  mongoDB,
+  git,
+  gitHub,
+  terminal,
+  vsc,
+  json,
+  adobe,
+  figma,
+  photoshop,
+];
 function Section2() {
+  console.log(photo);
+
   return (
-    <section id={'skills'}>
+    <section id={"skills"}>
       <div className="skills-section">
         <h1>Skills</h1>
-        <ul className="skills-gallery">
-          <li>
-            <ion-icon name="logo-html5"></ion-icon>
-            <p className="skills-gallery__title">HTML</p>
-          </li>
-          <li>
-            <ion-icon name="logo-css3"></ion-icon>
-            <p className="skills-gallery__title">CSS</p>
-          </li>
-          <li>
-            <ion-icon name="logo-sass"></ion-icon>
-            <p className="skills-gallery__title">SASS</p>
-          </li>
-          <li>
-            <ion-icon name="logo-react"></ion-icon>
-            <p className="skills-gallery__title">React</p>
-          </li>
-          <li>
-            <ion-icon name="logo-javascript"></ion-icon>
-            <p className="skills-gallery__title">JavaScript</p>
-          </li>
-          <li>
-            <ion-icon name="logo-nodejs"></ion-icon>
-            <p className="skills-gallery__title">Node.js</p>
-          </li>
-          <li>
-            <ion-icon name="logo-npm"></ion-icon>
-            <p className="skills-gallery__title">NPM</p>
-          </li>
-          <li>
-            <ion-icon name="logo-github"></ion-icon>
-            <p className="skills-gallery__title">GitHub</p>
-          </li>
-        </ul>
-        <p>
-          I have become familial with and can successfully use :
-        </p>
+        <div className="skills-gallery">
+
+        {data.map((item, i) => (
+          <div key={i}>
+            <img src={`${item}`} alt={data[1]} width="50" height="50" />
+        <p  className="skills-gallery__title">{data[i].slice(14,-13).toUpperCase()}</p>
+          </div>
+        ))}
+        </div>
+
+       
+        <p className='extra-title'>I have become familial with and can successfully use / apply :</p>
         <ul className="extra-skills">
           <li>
             <ion-icon name="checkmark"></ion-icon>
             <span>Bootstrap</span>
-          </li>
-          <li>
-            <ion-icon name="checkmark"></ion-icon>
-            <span>Redux</span>
           </li>
           <li>
             <ion-icon name="checkmark"></ion-icon>
@@ -59,14 +71,12 @@ function Section2() {
             <ion-icon name="checkmark"></ion-icon>
             <span>AJAX/Fetch API</span>
           </li>
+       
           <li>
             <ion-icon name="checkmark"></ion-icon>
-            <span>MongoDB</span>
+            <span>NPM/YARN</span>
           </li>
-          <li>
-            <ion-icon name="checkmark"></ion-icon>
-            <span>Express.js</span>
-          </li>
+          
           <li>
             <ion-icon name="checkmark"></ion-icon>
             <span>Mongoose</span>
