@@ -2,33 +2,80 @@
   width: 80vw;
   height: 100vh;
   @include aligned-central;
+
   .skills-section {
-    width: 70vw;
-    height: 80vh;
+    width: 80vw;
+    height: 85vh;
     // border: solid 1px black;
     @include column-space-evenly;
     @include box-shadow-radius;
+    @media (min-width: 1901px) {
+      height: 86vh;
+      width: 75vw;
+    }
+    @media (max-width: 600px) {
+      width: 80vw;
+    }
     h1 {
       font-size: 2rem;
     }
     .skills-gallery {
-      width: 40vw;
+      width: 60vw;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
       column-gap: 6vw;
-      li {
-        list-style: none;
+      row-gap: 6vh;
+      @media (max-width: 978px) {
+        width: 77vw;
+        height: 57vh;
+        gap: 1rem;
+        padding-left: 1rem;
+      }
+      @media (max-width: 600px) {
+        gap: 0.3rem;
+      }
+      @media (max-width: 400px) {
+        row-gap: 0.2rem;
+      }
+
+      div {
         width: 5vw;
         @include column-space-evenly;
-        height: 15vh;
-        &__title {
-          //all the p inside ul
-
-          font-size: 1.3vw;
+        height: 12vh;
+        @media (max-width: 978px) {
+          margin-top: 2rem;
+          width: 3rem;
+          height: 4rem;
         }
-        ion-icon {
-          font-size: 3vw;
+        @media (max-width: 400px) {
+          width: 2rem;
+          height: 2rem;
         }
+        img {
+          @media (max-width: 400px) {
+            width: 1.5rem;
+            height: 2rem;
+          }
+        }
+        p {
+          font-size: 0.8rem;
+          @media (max-width: 978px) {
+            margin-top: 1rem;
+            font-size: 0.6rem;
+          }
+          @media (max-width: 500px) {
+            margin-top: 0.5rem;
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+    .extra-title {
+      @media (max-width: 680px) {
+        font-size: 0.8rem;
+      }
+      @media (max-width: 500px) {
+        font-size: 0.7rem;
       }
     }
     .extra-skills {
@@ -39,66 +86,72 @@
         list-style: none;
         ion-icon {
           font-size: 0.8vw;
+          @media (max-width: 600px) {
+            font-size: 0.7rem;
+          }
         }
         span {
           font-size: 1vw;
           margin-left: 0.4vw;
-        }
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #section_2 {
-    width: 87vw;
-    height: 110vh;
-    flex-direction: column;
-
-    .skills-section {
-      width: 80vw;
-      height: 90vh;
-      flex-direction: column;
-      align-items: center;
-      box-shadow: none;
-      border-radius: none;
-      h1 {
-        font-size: 1.5rem;
-        margin-bottom: 2vh;
-      }
-
-      .skills-gallery {
-        width: 80vw;
-        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
-        column-gap: none;
-        justify-items: center;
-        li {
-          width: 25vw;
-          height: 12vh;
-          ion-icon {
-            font-size: 10vw;
-          }
-          p {
-            //all the p inside ul
-            font-size: 0.6rem;
-          }
-        }
-      }
-      p {
-        font-size: 0.7rem;
-        text-align: center;
-      }
-      .extra-skills {
-        li {
-          ion-icon {
-            font-size: 1.8vw;
-          }
-          span {
-            font-size: 2.8vw;
-            margin-left: 1vw;
+          @media (max-width: 680px) {
+            font-size: 0.7rem;
           }
         }
       }
     }
   }
 }
+
+// @media only screen and (max-width: 600px) {
+//   #section_2 {
+//     width: 87vw;
+//     height: 110vh;
+//     flex-direction: column;
+
+//     .skills-section {
+//       width: 80vw;
+//       height: 90vh;
+//       flex-direction: column;
+//       align-items: center;
+//       box-shadow: none;
+//       border-radius: none;
+//       h1 {
+//         font-size: 1.5rem;
+//         margin-bottom: 2vh;
+//       }
+
+//       .skills-gallery {
+//         width: 80vw;
+//         grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+//         column-gap: none;
+//         justify-items: center;
+//         li {
+//           width: 25vw;
+//           height: 12vh;
+//           ion-icon {
+//             font-size: 10vw;
+//           }
+//           p {
+//             //all the p inside ul
+//             font-size: 0.6rem;
+//           }
+//         }
+//       }
+//       p {
+//         font-size: 0.7rem;
+//         text-align: center;
+//       }
+//       .extra-skills {
+//         li {
+//           ion-icon {
+//             font-size: 1.8vw;
+//           }
+//           span {
+//             font-size: 2.8vw;
+//             margin-left: 1vw;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

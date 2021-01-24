@@ -3,8 +3,8 @@
   height: 100vh;
   @include aligned-central;
   .contact-section {
-    width: 70vw;
-    height: 80vh;
+    width: 75vw;
+    height: 85vh;
     @include column-space-evenly;
     @include box-shadow-radius;
     h1 {
