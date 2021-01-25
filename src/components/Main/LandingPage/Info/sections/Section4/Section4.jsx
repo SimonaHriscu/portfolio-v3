@@ -64,13 +64,13 @@ export default class MyForm extends React.Component {
       if (xhr.status === 200) {
         form.reset();
         this.setState({ status: 'SUCCESS' });
+        window.setTimeout(() => {
+          window.location.reload();
+        }, 2000);
       } else {
         this.setState({ status: 'ERROR' });
       }
     };
     xhr.send(data);
-    window.setTimeout(() => {
-      window.location.reload();
-    }, 2000);
   }
 }
