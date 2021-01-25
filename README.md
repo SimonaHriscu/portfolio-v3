@@ -1,6 +1,6 @@
 # Personal website built with React
 
- Project build during the DCI Web Development course 2019-2020
+Project build during the DCI Web Development course 2019-2020
 
 <br>
 <br>
@@ -16,6 +16,6 @@
 <img src="https://imgur.com/lXP1Rph.png" alt="JSON" width="10%">
 </h1>
 
-
 <!-- <img src="https://media.giphy.com/media/IbOiFIJcSlHW2rgVUa/giphy.gif" alt="Yass" width="50%"> -->
-![Alt Text](https://media.giphy.com/media/IbOiFIJcSlHW2rgVUa/giphy.gif)
+
+![Alt Text](https://media.giphy.com/media/IbOiFIJcSlHW2rgVUa/source.gif)
